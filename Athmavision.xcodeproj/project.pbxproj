@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180A289B246AE63500B5BF42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A289A246AE63500B5BF42 /* AppDelegate.swift */; };
+		180A289D246AE63500B5BF42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A289C246AE63500B5BF42 /* SceneDelegate.swift */; };
+		180A289F246AE63500B5BF42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A289E246AE63500B5BF42 /* ViewController.swift */; };
+		180A28A2246AE63500B5BF42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180A28A0246AE63500B5BF42 /* Main.storyboard */; };
+		180A28A4246AE63900B5BF42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180A28A3246AE63900B5BF42 /* Assets.xcassets */; };
+		180A28A7246AE63900B5BF42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180A28A5246AE63900B5BF42 /* LaunchScreen.storyboard */; };
+		180A28B2246AE63900B5BF42 /* AthmavisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A28B1246AE63900B5BF42 /* AthmavisionTests.swift */; };
+		180A28BD246AE63900B5BF42 /* AthmavisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A28BC246AE63900B5BF42 /* AthmavisionUITests.swift */; };
+		180A28CB246B0E3700B5BF42 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A28CA246B0E3700B5BF42 /* WebService.swift */; };
+		180A28CD246B128B00B5BF42 /* StreamAPIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A28CC246B128B00B5BF42 /* StreamAPIData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180A28AE246AE63900B5BF42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180A288F246AE63500B5BF42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180A2896246AE63500B5BF42;
+			remoteInfo = Athmavision;
+		};
+		180A28B9246AE63900B5BF42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180A288F246AE63500B5BF42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180A2896246AE63500B5BF42;
+			remoteInfo = Athmavision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180A2897246AE63500B5BF42 /* Athmavision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Athmavision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180A289A246AE63500B5BF42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180A289C246AE63500B5BF42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		180A289E246AE63500B5BF42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		180A28A1246AE63500B5BF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180A28A3246AE63900B5BF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180A28A6246AE63900B5BF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180A28A8246AE63900B5BF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180A28AD246AE63900B5BF42 /* AthmavisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AthmavisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180A28B1246AE63900B5BF42 /* AthmavisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthmavisionTests.swift; sourceTree = "<group>"; };
+		180A28B3246AE63900B5BF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180A28B8246AE63900B5BF42 /* AthmavisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AthmavisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180A28BC246AE63900B5BF42 /* AthmavisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthmavisionUITests.swift; sourceTree = "<group>"; };
+		180A28BE246AE63900B5BF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180A28CA246B0E3700B5BF42 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		180A28CC246B128B00B5BF42 /* StreamAPIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamAPIData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180A2894246AE63500B5BF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180A28AA246AE63900B5BF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180A28B5246AE63900B5BF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180A288E246AE63500B5BF42 = {
+			isa = PBXGroup;
+			children = (
+				180A2899246AE63500B5BF42 /* Athmavision */,
+				180A28B0246AE63900B5BF42 /* AthmavisionTests */,
+				180A28BB246AE63900B5BF42 /* AthmavisionUITests */,
+				180A2898246AE63500B5BF42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180A2898246AE63500B5BF42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180A2897246AE63500B5BF42 /* Athmavision.app */,
+				180A28AD246AE63900B5BF42 /* AthmavisionTests.xctest */,
+				180A28B8246AE63900B5BF42 /* AthmavisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180A2899246AE63500B5BF42 /* Athmavision */ = {
+			isa = PBXGroup;
+			children = (
+				180A289A246AE63500B5BF42 /* AppDelegate.swift */,
+				180A289C246AE63500B5BF42 /* SceneDelegate.swift */,
+				180A289E246AE63500B5BF42 /* ViewController.swift */,
+				180A28CC246B128B00B5BF42 /* StreamAPIData.swift */,
+				180A28CA246B0E3700B5BF42 /* WebService.swift */,
+				180A28A0246AE63500B5BF42 /* Main.storyboard */,
+				180A28A3246AE63900B5BF42 /* Assets.xcassets */,
+				180A28A5246AE63900B5BF42 /* LaunchScreen.storyboard */,
+				180A28A8246AE63900B5BF42 /* Info.plist */,
+			);
+			path = Athmavision;
+			sourceTree = "<group>";
+		};
+		180A28B0246AE63900B5BF42 /* AthmavisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				180A28B1246AE63900B5BF42 /* AthmavisionTests.swift */,
+				180A28B3246AE63900B5BF42 /* Info.plist */,
+			);
+			path = AthmavisionTests;
+			sourceTree = "<group>";
+		};
+		180A28BB246AE63900B5BF42 /* AthmavisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180A28BC246AE63900B5BF42 /* AthmavisionUITests.swift */,
+				180A28BE246AE63900B5BF42 /* Info.plist */,
+			);
+			path = AthmavisionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180A2896246AE63500B5BF42 /* Athmavision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180A28C1246AE63900B5BF42 /* Build configuration list for PBXNativeTarget "Athmavision" */;
+			buildPhases = (
+				180A2893246AE63500B5BF42 /* Sources */,
+				180A2894246AE63500B5BF42 /* Frameworks */,
+				180A2895246AE63500B5BF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Athmavision;
+			productName = Athmavision;
+			productReference = 180A2897246AE63500B5BF42 /* Athmavision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180A28AC246AE63900B5BF42 /* AthmavisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180A28C4246AE63900B5BF42 /* Build configuration list for PBXNativeTarget "AthmavisionTests" */;
+			buildPhases = (
+				180A28A9246AE63900B5BF42 /* Sources */,
+				180A28AA246AE63900B5BF42 /* Frameworks */,
+				180A28AB246AE63900B5BF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180A28AF246AE63900B5BF42 /* PBXTargetDependency */,
+			);
+			name = AthmavisionTests;
+			productName = AthmavisionTests;
+			productReference = 180A28AD246AE63900B5BF42 /* AthmavisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180A28B7246AE63900B5BF42 /* AthmavisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180A28C7246AE63900B5BF42 /* Build configuration list for PBXNativeTarget "AthmavisionUITests" */;
+			buildPhases = (
+				180A28B4246AE63900B5BF42 /* Sources */,
+				180A28B5246AE63900B5BF42 /* Frameworks */,
+				180A28B6246AE63900B5BF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180A28BA246AE63900B5BF42 /* PBXTargetDependency */,
+			);
+			name = AthmavisionUITests;
+			productName = AthmavisionUITests;
+			productReference = 180A28B8246AE63900B5BF42 /* AthmavisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180A288F246AE63500B5BF42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = IRPL;
+				TargetAttributes = {
+					180A2896246AE63500B5BF42 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					180A28AC246AE63900B5BF42 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 180A2896246AE63500B5BF42;
+					};
+					180A28B7246AE63900B5BF42 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 180A2896246AE63500B5BF42;
+					};
+				};
+			};
+			buildConfigurationList = 180A2892246AE63500B5BF42 /* Build configuration list for PBXProject "Athmavision" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180A288E246AE63500B5BF42;
+			productRefGroup = 180A2898246AE63500B5BF42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180A2896246AE63500B5BF42 /* Athmavision */,
+				180A28AC246AE63900B5BF42 /* AthmavisionTests */,
+				180A28B7246AE63900B5BF42 /* AthmavisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180A2895246AE63500B5BF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180A28A7246AE63900B5BF42 /* LaunchScreen.storyboard in Resources */,
+				180A28A4246AE63900B5BF42 /* Assets.xcassets in Resources */,
+				180A28A2246AE63500B5BF42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180A28AB246AE63900B5BF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180A28B6246AE63900B5BF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180A2893246AE63500B5BF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180A289F246AE63500B5BF42 /* ViewController.swift in Sources */,
+				180A289B246AE63500B5BF42 /* AppDelegate.swift in Sources */,
+				180A28CD246B128B00B5BF42 /* StreamAPIData.swift in Sources */,
+				180A28CB246B0E3700B5BF42 /* WebService.swift in Sources */,
+				180A289D246AE63500B5BF42 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180A28A9246AE63900B5BF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180A28B2246AE63900B5BF42 /* AthmavisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180A28B4246AE63900B5BF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180A28BD246AE63900B5BF42 /* AthmavisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180A28AF246AE63900B5BF42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180A2896246AE63500B5BF42 /* Athmavision */;
+			targetProxy = 180A28AE246AE63900B5BF42 /* PBXContainerItemProxy */;
+		};
+		180A28BA246AE63900B5BF42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180A2896246AE63500B5BF42 /* Athmavision */;
+			targetProxy = 180A28B9246AE63900B5BF42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180A28A0246AE63500B5BF42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180A28A1246AE63500B5BF42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180A28A5246AE63900B5BF42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180A28A6246AE63900B5BF42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180A28BF246AE63900B5BF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180A28C0246AE63900B5BF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180A28C2246AE63900B5BF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR86784YY6;
+				INFOPLIST_FILE = Athmavision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.preigo.athmavision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		180A28C3246AE63900B5BF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR86784YY6;
+				INFOPLIST_FILE = Athmavision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.preigo.athmavision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		180A28C5246AE63900B5BF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R68VGE26FL;
+				INFOPLIST_FILE = AthmavisionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.priego.athmavision.AthmavisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Athmavision.app/Athmavision";
+			};
+			name = Debug;
+		};
+		180A28C6246AE63900B5BF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R68VGE26FL;
+				INFOPLIST_FILE = AthmavisionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.priego.athmavision.AthmavisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Athmavision.app/Athmavision";
+			};
+			name = Release;
+		};
+		180A28C8246AE63900B5BF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R68VGE26FL;
+				INFOPLIST_FILE = AthmavisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.priego.athmavision.AthmavisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Athmavision;
+			};
+			name = Debug;
+		};
+		180A28C9246AE63900B5BF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R68VGE26FL;
+				INFOPLIST_FILE = AthmavisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.priego.athmavision.AthmavisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Athmavision;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180A2892246AE63500B5BF42 /* Build configuration list for PBXProject "Athmavision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180A28BF246AE63900B5BF42 /* Debug */,
+				180A28C0246AE63900B5BF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180A28C1246AE63900B5BF42 /* Build configuration list for PBXNativeTarget "Athmavision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180A28C2246AE63900B5BF42 /* Debug */,
+				180A28C3246AE63900B5BF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180A28C4246AE63900B5BF42 /* Build configuration list for PBXNativeTarget "AthmavisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180A28C5246AE63900B5BF42 /* Debug */,
+				180A28C6246AE63900B5BF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180A28C7246AE63900B5BF42 /* Build configuration list for PBXNativeTarget "AthmavisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180A28C8246AE63900B5BF42 /* Debug */,
+				180A28C9246AE63900B5BF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180A288F246AE63500B5BF42 /* Project object */;
+}
