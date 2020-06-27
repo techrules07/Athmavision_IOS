@@ -11,7 +11,7 @@ import Foundation
 class WebService {
     var result: NSDictionary? = nil
     
-    func WebService(_ url: String, delegate: TaskListener, tag: String){
+    func WebService(_ url: String, delegate: TaskListener, tag: String) {
         var js: NSDictionary?
        print(url)
         guard let endpoint = URL(string: url) else {
@@ -56,6 +56,7 @@ class WebService {
         case ConversionFailed = "ERROR: conversion from JSON failed"
     }
 }
+
 
 public protocol TaskListener : class{
     func webResponse(_ result: NSDictionary, tag: String)

@@ -34,11 +34,13 @@ class ViewController: UIViewController, TaskListener {
     var player: AVPlayer?
     var outputVolumeObserve: NSKeyValueObservation?
     let audioSession = AVAudioSession.sharedInstance()
+    let audioEngine = AVAudioEngine.init()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        overrideUserInterfaceStyle = .light
         initAudio()
         
        let gradientLayer = CAGradientLayer()
@@ -59,6 +61,7 @@ class ViewController: UIViewController, TaskListener {
         URL = "https://janus.cdnstream.com:2199/rpc/athmavis/streaminfo.get"
         volume = self.volumeSlider.value
         player?.volume = volume
+        
         
 //        self.playPauseImage.bringSubviewToFront(self.btnPlayPause)
         
@@ -84,14 +87,17 @@ class ViewController: UIViewController, TaskListener {
     }
     
     @IBAction func sliderValueChanged(_ sender: Any) {
-        player?.volume = self.volumeSlider.value
-        self.volume = self.volumeSlider.value
+        player?.volume = (sender as! UISlider).value
+        self.volume = (sender as! UISlider).value
+        
+        //audioSession.setValue((sender as! UISlider).value, forKey: "outputVolume")
     }
     
     @objc func callApiBackground() {
         let apiCall = WebService()
         apiCall.WebService(self.URL, delegate: self, tag: "API")
     }
+    
     
     override func viewWillAppear(_ animated: Bool) {
         player?.play()
@@ -141,8 +147,8 @@ class ViewController: UIViewController, TaskListener {
     @objc func increaseVolume(sender: UITapGestureRecognizer) {
         let currentVolume = self.volumeSlider.value
         if (currentVolume < self.volumeSlider.maximumValue) {
-            self.volume = currentVolume - 3
-            self.volumeSlider.setValue(currentVolume + 3, animated: true)
+            self.volume = currentVolume + 0.1
+            self.volumeSlider.setValue(currentVolume + 0.1, animated: true)
             self.player?.volume = volume
         }
     }
@@ -150,8 +156,8 @@ class ViewController: UIViewController, TaskListener {
     @objc func decreaseVolume(sender: UITapGestureRecognizer) {
         let currentVolume = self.volumeSlider.value
         if (currentVolume > 0) {
-            self.volume = currentVolume - 3
-            self.volumeSlider.setValue(currentVolume - 3, animated: true)
+            self.volume = currentVolume - 0.1
+            self.volumeSlider.setValue(currentVolume - 0.1, animated: true)
             self.player?.volume = volume
         }
     }
@@ -170,7 +176,6 @@ class ViewController: UIViewController, TaskListener {
     }
     
     func initAudio() {
-        
         let url = NSURL(string: "http://janus.cdnstream.com:5680//stream")
         let playerItem:AVPlayerItem = AVPlayerItem(url: url! as URL)
         player = AVPlayer(playerItem: playerItem)
@@ -288,4 +293,3 @@ class ViewController: UIViewController, TaskListener {
         }
     }
 }
-
